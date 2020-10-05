@@ -1,0 +1,10 @@
+---
+
+#scl_python_version: rh-python35
+virtualenv_path: /etc/wal-e.d/env
+
+wale_rpm_packages:
+  - python-pip
+  - lzop
+  - yum-utils
+  - pv

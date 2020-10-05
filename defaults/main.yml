@@ -1,0 +1,9 @@
+---
+
+wale_install: true
+wale_cronjob: false
+wale_postgresql_version: ''
+wale_aws_access_key_id: ''
+wale_aws_secret_access_key: ''
+wale_aws_s3_endpoint: ''
+wale_aws_s3_prefix: ''

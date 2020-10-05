@@ -1,0 +1,11 @@
+---
+
+- hosts: server
+  vars:
+    wale_aws_access_key_id: ''
+    wale_aws_region: ''
+    wale_aws_secret_access_key: ''
+    wale_s3_prefix: ''
+    wale_postgresql_version: 10
+  roles:
+  - { role: wale, tags: wale }
